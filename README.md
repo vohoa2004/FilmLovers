@@ -1,5 +1,5 @@
 # FilmLovers
-#### Notice: This is a re-up repository of a project that I worked with my teammates in subject PRJ301 at FPT University, because the original repository was set "private"
+#### Notice: This is a re-up repository of a project that I worked with my teammates in subject PRJ301 at FPT University, I re-up this proejct because the original repository was set "private" by my teacher.
 
 ## Project Document:
 # 🎬 Film Lovers
