@@ -1,8 +1,8 @@
-# FilmLovers
+# 🎬 Film Lovers
+
 #### Notice: This is a re-up repository of a project that I worked with my teammates in subject PRJ301 at FPT University, I re-up this project because the original repository was set "private" by my teacher.
 
 ## Project Document:
-# 🎬 Film Lovers
 
 ## Mẫu giáo tập code - Group members:
 - Nguyễn Thị Bích Duyên - SE183629
