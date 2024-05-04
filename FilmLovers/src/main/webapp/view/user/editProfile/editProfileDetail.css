@@ -1,0 +1,372 @@
+body {
+  margin: 0;
+}
+.flex{
+  display: flex;
+}
+/* .left_margin{
+  margin-left: 00px;
+} */
+.form__img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background-color: #151f30;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.form__img input {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+.form__img label {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  color: #e0e0e0;
+  transition: 0.5s;
+}
+
+.form__img label:hover {
+  color: #fff;
+}
+
+.form__img img {
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  right: -100px;
+  bottom: -100px;
+  left: -100px;
+  margin: auto;
+  width: 100%;
+}
+.container {
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.edit_left {
+  width: 100%;
+  height: 650px;
+  border-radius: 20px;
+  background: #e6e6e6;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.edit_right {
+  width: 30%;
+  height: 180px;
+  background: #e6e6e6;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.edit_user_id {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.user_name {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.user_id {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.user_image {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.upload_image {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.edit_btn {
+  width: 71px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background: #d9d9d9;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+.upload_img_btn {
+  width: 93px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background: #d9d9d9;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+.bio_container {
+  width: 100%;
+}
+.input_bio {
+  width: 95%;
+  height: 177px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  font-family: "Times New Roman", Times, serif;
+}
+.bio_title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.gender_select {
+  border-radius: 5px;
+  width: 83px;
+  height: 26px;
+  outline: none;
+}
+.date {
+  width: 62px;
+  height: 26px;
+  border-radius: 5px;
+  outline: none;
+}
+.month {
+  border-radius: 5px;
+  outline: none;
+  width: 114px;
+  height: 26px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.year {
+  border-radius: 5px;
+  outline: none;
+  width: 82px;
+  height: 26px;
+}
+.title_dob {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title_gender {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title_country {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.country_select {
+  width: 270px;
+  height: 26px;
+  border-radius: 5px;
+  outline: none;
+}
+.save_btn {
+  width: 183px;
+  height: 40px;
+  top: 681px;
+  left: 66px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 50px;
+  background: #dbb800;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.quick_list_title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ql_content_container {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.quick_list_content {
+  font-size: 20px;
+}
+.recently_container {
+  background: #2a2a461a;
+  padding-left: 50px;
+  margin-top: 20px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.recently_title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b31313;
+}
+.clear_history {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: underline;
+}
+.recently_top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.recent_view {
+  display: flex;
+  width: 1800px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 60px;
+}
+.div_items_trending {
+  width: 230px;
+  height: 328px;
+}
+
+.items_trending {
+  width: 169px;
+  height: 240px;
+  border-radius: 15px;
+  background-color: #0f1116;
+  position: relative;
+}
+
+.star_rating {
+  position: absolute;
+  background: url(../assets/Star.png);
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -15%;
+  right: -25%;
+}
+.rating {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: aliceblue;
+}
+.item_name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.item_type_and_year {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.trending-second-box {
+  width: 1720px;
+  flex-direction: row;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: #2a2946;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}

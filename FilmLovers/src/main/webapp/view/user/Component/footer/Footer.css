@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.footer {
+  padding-top: 50px;
+  height: 357px;
+  top: 2532px;
+  background: #b31313;
+}
+.footer_container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  color: #fff;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+.logo_footer {
+  height: 176px;
+  top: 36px;
+  left: 176px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.basics {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.basic_content {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.contribute {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.under_footer_content {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+.hi_user {
+  width: 174px;
+  height: 61px;
+  top: 225px;
+  left: 176px;
+  border-radius: 15px;
+  background: #fff;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.login_CTA {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
