@@ -5,10 +5,10 @@
 ## Project Document:
 
 ## Mẫu giáo tập code - Group members:
+- Võ Thị Mai Hoa - SE183659
+- Nguyễn Gia Bảo Anh - SE183425
 - Nguyễn Thị Bích Duyên - SE183629
 - Trương Quang Hiếu Trung - SE183255
-- Nguyễn Gia Bảo Anh - SE183425
-- Võ Thị Mai Hoa - SE183659
 
 ## 1. Requirement: 
 ### Target users: Film viewers who want to hold the latest information, ratings and reviews of films, tv series, movies...
