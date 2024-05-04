@@ -98,7 +98,9 @@
 ## 3. Database Design
 <details>
   <summary>Click me</summary><br>
+  
 ![FilmLovers-ERD](https://github.com/dunghuynh-teaching/prj301-se1867-06/assets/133933281/4cfecb5d-8b3b-4fb6-accb-2b9c67b1729c)
+  
 ![FilmLovers-RS](https://github.com/dunghuynh-teaching/prj301-se1867-06/assets/133933281/2d2cb4c7-fb24-4898-9161-3db557b28665)
 </details>
 
