@@ -57,39 +57,39 @@
   ### 2.1. Common Pages
   
 #### a. Sign in & Sign up:
-<![User Authentication Screen](https://github.com/vohoa2004/FilmLovers/images/auth.png)>
+![User Authentication Screen](./images/auth.png)
 
 #### b. Home page
-<![Homepage](https://github.com/vohoa2004/FilmLovers/images/homepage.png)>
+![Homepage](./images/homepage.png)
 
 #### c. Trending films 
-<![Trending films](https://github.com/vohoa2004/FilmLovers/images/trending_films.png)>
+![Trending films](./images/trending_films.png)
 
 #### d. Film details and Reviews
-<![Film details and Reviews](https://github.com/vohoa2004/FilmLovers/images/film_details.png)>
+![Film details and Reviews](./images/film_details.png)
 
 #### e. Film cast details
-<![Film cast details](https://github.com/vohoa2004/FilmLovers/images/cast_details.png)>
+![Film cast details](./images/cast_details.png)
 
 ### 2.2. Admin Pages
 
 #### a. Login
-<![Login](https://github.com/vohoa2004/FilmLovers/images/adm_login.png)>
+![Login](./images/adm_login.png)
 
 #### b. Dashboard
-<![Dashboard](https://github.com/vohoa2004/FilmLovers/images/adm_dashboard.png)>
+![Dashboard](./images/adm_dashboard.png)
 
 #### c. Movie Database
-<![Movie DB](https://github.com/vohoa2004/FilmLovers/images/movie_db.png)>
+![Movie DB](./images/movie_db.png)
 
 #### d. Add new movie
-<![Add new movie](https://github.com/vohoa2004/FilmLovers/images/add_movie.png)>
+![Add new movie](./images/add_movie.png)
 
 #### e. Manage users
-<![Manage users](https://github.com/vohoa2004/FilmLovers/images/manage_user.png)>
+![Manage users](./images/manage_user.png)
 
 #### f. Manage comments
-<![Manage comments](https://github.com/vohoa2004/FilmLovers/images/manage_comments.png)>
+![Manage comments](./images/manage_comments.png)
 
 </details>
 
@@ -97,16 +97,16 @@
 ## 3. Database Design
 <details>
   <summary>Click me</summary><br>
-  <img src="https://github.com/vohoa2004/FilmLovers/images/erd.jpg" alt="ERD">
-  <img src="https://github.com/vohoa2004/FilmLovers/images/rs.jpg" alt="ERD">
+  <img src="./images/erd.jpg" alt="ERD">
+  <img src="./images/rs.jpg" alt="ERD">
 </details>
 
 ## 4. System Design
 ### a. Project Structure:
-![Project Structure](https://github.com/vohoa2004/FilmLovers/images/structure.png)
+![Project Structure](./images/structure.png)
 
 ### b. Flow chart:
-![Flowchart](https://github.com/vohoa2004/FilmLovers/images/flowchart.png)
+![Flowchart](./images/flowchart.png)
 
 ## 5. Conclusion
 With the team effort, we have delivered some features of the website:
